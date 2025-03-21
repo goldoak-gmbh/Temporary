@@ -29,6 +29,6 @@ sudo /Library/Ossec/bin/wazuh-control start
 
 Weitere Directories können ergänzt werden. Einfach so: 
 ```xml
-`<directories>/Users/ozan/Downloads/</directories>`
-`<directories>/Users/ozan/Documents/</directories>`
+<directories>/Users/ozan/Downloads/</directories>
+<directories>/Users/ozan/Documents/</directories>
 ```
