@@ -26,3 +26,9 @@ sudo /Library/Ossec/bin/wazuh-control start
 2. Diesen Abschnitt finden:  <!-- File integrity monitoring --> <syscheck>
 3. So abändern:     `<directories>/etc/</directories>`
 4. Dadurch wird nur /etc überwacht 
+
+Weitere Directories können ergänzt werden. Einfach so: 
+```xml
+`<directories>/Users/ozan/Downloads/</directories>`
+`<directories>/Users/ozan/Documents/</directories>`
+```
