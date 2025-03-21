@@ -32,3 +32,5 @@ Weitere Directories können ergänzt werden. Einfach so:
 <directories>/Users/ozan/Downloads/</directories>
 <directories>/Users/ozan/Documents/</directories>
 ```
+
+Dann 'sudo /Library/Ossec/bin/wazuh-control restart'
